@@ -1,4 +1,10 @@
-<!-- TOC -->autoauto- [Git的使用](#git的使用)auto    - [常用命令](#常用命令)auto    - [GitHub远程仓库](#github远程仓库)autoauto<!-- /TOC -->
+<!-- TOC -->
+
+- [Git的使用](#git的使用)
+    - [常用命令](#常用命令)
+    - [GitHub远程仓库](#github远程仓库)
+
+<!-- /TOC -->
 # Git的使用
 ## 常用命令
 1. 创建仓库  
