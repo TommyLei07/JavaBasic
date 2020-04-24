@@ -1,4 +1,6 @@
-# Git的常用命令
+<!-- TOC -->autoauto- [Git的使用](#git的使用)auto    - [常用命令](#常用命令)auto    - [GitHub远程仓库](#github远程仓库)autoauto<!-- /TOC -->
+# Git的使用
+## 常用命令
 1. 创建仓库  
 ```
 /*
@@ -58,4 +60,31 @@ $ rm filename
 $ git checkout -- filename //从版本库中恢复
 ```
 
+## GitHub远程仓库
+1. 生成SSH key
+```
+ssh-keygen -t rsa -C "youremail@example.com"
+```
+<div align="center">
+<img src="../img/sshkey.jpg" width="70%" >
+</div>  
+然后将那一串key添加到GitHub账户的ssh key中
 
+2. 添加远程仓库
+```
+$ git remote add origin git@github.com:accountname/project.git
+```
+把本地仓库和远程仓库进行关联
+*这里遇到的问题：'fatal:remote origin already exists'*  
+*解决方法：*
+```
+$ git remote rm origin
+$ git remote add origin git@github.com:accountname/project.git
+```
+
+3. 推送
+```
+$ git push -u origin master
+```
+
+***未完待续...***
