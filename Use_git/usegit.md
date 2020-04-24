@@ -25,14 +25,10 @@ $ git commit -m "add new file"
 ```
 $ git status
 ```
-<div align="center" style="display: none;">
-<img src="../img/gitstatus.jpg" width="70%" >
-</div>
 <div align="center">
 <img src="../img/gitstatus.jpg" width="70%" >
 </div>  
-
-[comment]: <> ( " ![gitstatus](../img/gitstatus.jpg "git status" )  
+ 
 5. 查看修改
 ```
 $git diff filename
