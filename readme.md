@@ -1,10 +1,6 @@
-***hello***
 
-```java
-hello world
-```
+# 说明
+之前学东西什么的都是直接在pad里做笔记，但现在想把一些学习的知识和总结在GitHub上记录下来。目前这里主要的内容应该还是围绕Java的一些知识吧。
 
-this is the second update
-
-this is edited in vscode
+整体的操作方法是通过在本地VScode里写好总结，然后push到这里来。一方面是做好一个学习日志，另一方面也是锻炼一下自己Markdown的编辑能力和一些常规的git操作。
 
