@@ -93,4 +93,28 @@ $ git remote add origin git@github.com:accountname/project.git
 $ git push -u origin master
 ```
 
+
+4. fetch/merge
+```
+error: failed to push some refs to 'https://github.com/GDDXZ/RobotDenso.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+```
+解决方法：  
+- 强制推送
+```
+$ git push -f
+```
+可以提交，会将 remote 上第一个人的改动冲掉，比较暴力，不太好。
+
+- 正常解决
+```
+git fetch origin
+git merge origin/master 
+```
+和本地分支合并，之后再 push。  
+
 ***未完待续...***
