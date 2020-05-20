@@ -3,6 +3,7 @@
 - [Git的使用](#git的使用)
     - [常用命令](#常用命令)
     - [GitHub远程仓库](#github远程仓库)
+- [多人协作下Git的使用](#多人协作下git的使用)
 
 <!-- /TOC -->
 # Git的使用
@@ -116,5 +117,9 @@ git fetch origin
 git merge origin/master 
 ```
 和本地分支合并，之后再 push。  
+
+
+# 多人协作下Git的使用
+
 
 ***未完待续...***
